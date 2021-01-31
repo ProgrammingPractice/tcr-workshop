@@ -1,0 +1,7 @@
+#! /bin/bash
+
+docker run --rm -ti \
+  -v "$PWD:/code" \
+  --workdir /code/tcr-ruby \
+  tcr-workshop:local \
+  /bin/bash
