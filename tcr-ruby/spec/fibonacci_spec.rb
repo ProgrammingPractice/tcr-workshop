@@ -3,7 +3,6 @@ def fib(n)
     n
   else
     fib(n-1) + fib(n-2)
-
   end
   # count = 0
   # while i<=n do
