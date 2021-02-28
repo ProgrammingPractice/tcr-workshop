@@ -4,10 +4,6 @@ def fib(n)
   else
     fib(n-1) + fib(n-2)
   end
-  # count = 0
-  # while i<=n do
-  #   count = count+i
-  # end
 end
 
 describe "Calculate the Fibonacci of a number" do
