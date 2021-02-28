@@ -3,7 +3,7 @@ def fib(n)
     n
   else
     fib(n-1) + fib(n-2)
-     # f(n-1) = f(n-2) + f(n-3) for n-1 > 1
+
   end
   # count = 0
   # while i<=n do
