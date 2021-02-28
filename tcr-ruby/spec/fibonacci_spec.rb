@@ -28,4 +28,8 @@ describe "Calculate the Fibonacci of a number" do
   it "returns 2 for fib(3)" do
     expect(fib(3)).to eq(2)
   end
+
+  # it "returns 354224848179261915075 for fib(100)" do
+  #   expect(fib(100)).to eq(354224848179261915075)
+  # end
 end
