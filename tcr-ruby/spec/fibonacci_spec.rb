@@ -1,5 +1,9 @@
 def fib(n)
-  n
+  if n<2
+    n
+  else
+    n-1
+  end
 end
 
 describe "Calculate the Fibonacci of a number" do
@@ -15,5 +19,9 @@ describe "Calculate the Fibonacci of a number" do
 
   it "returns 1 for fib(1)" do
     expect(fib(1)).to eq(1)
+  end
+
+  it "returns 1 for fib(2)" do
+    expect(fib(2)).to eq(1)
   end
 end
