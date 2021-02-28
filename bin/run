@@ -1,8 +1,10 @@
 #! /bin/bash
+set -e
+bin/build_image
 
 docker run --rm -ti \
   -v "$HOME/.gitconfig:/root/.gitconfig" \
   -v "$PWD:/code" \
   --workdir /code/tcr-ruby \
   tcr-workshop:local \
-  /bin/bash
+  /bin/bash watch.sh
