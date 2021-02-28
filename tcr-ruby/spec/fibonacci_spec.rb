@@ -7,7 +7,7 @@ def fib(n)
   end
   # count = 0
   # while i<=n do
-  # count = count+i
+  #   count = count+i
   # end
 end
 
