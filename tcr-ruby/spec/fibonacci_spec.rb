@@ -2,7 +2,7 @@ def fib(n)
   if n<2
     n
   else
-    fib(1)
+    fib(n-1)
   end
 end
 
