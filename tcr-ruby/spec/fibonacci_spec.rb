@@ -2,10 +2,7 @@ def fib(n)
   if n<2
     n
   else
-    # fib(n-1) + fib(n-2)
-    f1ago=1
-    f2ago=0
-    f1ago + f2ago
+    fib(n-1) + fib(n-2)
 
   end
   # count = 0
@@ -33,9 +30,9 @@ describe "Calculate the Fibonacci of a number" do
     expect(fib(2)).to eq(1)
   end
 
-  # it "returns 2 for fib(3)" do
-  #   expect(fib(3)).to eq(2)
-  # end
+  it "returns 2 for fib(3)" do
+    expect(fib(3)).to eq(2)
+  end
 
   # it "returns 354224848179261915075 for fib(100)" do
   #   expect(fib(100)).to eq(354224848179261915075)
