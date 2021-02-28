@@ -2,7 +2,10 @@ def fib(n)
   if n<2
     n
   else
-    fib(n-1) + fib(n-2)
+    # fib(n-1) + fib(n-2)
+    f1ago=1
+    f2ago=0
+    f1ago + f2ago
 
   end
   # count = 0
